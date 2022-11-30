@@ -1,0 +1,76 @@
+const data = [
+    {   id:1,
+        title: 'The Adventures of Pinocchio',
+        img: require('../assets/Images/1.jpg'),
+        author: 'Carlo Collodi',
+        genre: 'Adventure' ,
+        description: 'An old carpenter carves a little wooden puppet from a mysterious piece of wood that seems to have the ability to talk! He begins to love the little creature like his own son and names him Pinocchio. But the mischievous fellow runs away from his loving father as soon as he learns to walk. The Adventures of Pinocchio by Carlo Collodi follows the misadventures and naughty exploits of this delightfully “human” puppet who in his heart of hearts longs only to become a real boy.',
+        pdf: require('../assets/Pdf/The Adventures of Pinocchio.pdf'),
+    
+    },
+    {   id:2,
+        title: 'The Duck-Footed Hound' ,
+        img: require('../assets/Images/2.jpg'),
+        author: 'Jim Kjelgaard' ,
+        genre: 'Adventure',
+        description: "Really three plots in one: the story of a raccoon, a superstitious tale of a 'duck-footed' hound, and the story of 13-year-old Harky, his father, and the girl Melinda. The best of the book is about the coon's life and the nature background."
+    },
+    {   id:3,
+        title: 'The Beast-Jewel of Mars' ,
+        img: require('../assets/Images/3.png'),
+        author: 'Leigh Douglass Vrackett',
+        genre: 'Adventure',
+        description: 'The wise men of Caer Dhu were not so wise. They found the secret of Shanga, and they escaped their wars and their troubles by fleeing backward along the path of evolution.'
+    },
+    {   id:4,
+        title: 'Lorelei of the Red Mist',
+        img: require('../assets/Images/4.jpg'),
+        author: 'Leigh Douglass Brackett , Ray Bradbury' ,
+        genre: 'Crime',
+        description: "Lorelei of the Red Mist: Planetary Romances is the companion volume to Martian Quest: The Early Brackett, a volume that collected the First twenty published stories by the ?undisputed Queen of ?Space Opera.? ?With the stories in this volume, Brackett takes the foundation of the Fictional universe established in her early work, and populates these worlds with colorful characters and locales teeming with adventure and intrigue. Here, hard-bitten and cynical rogues risk (and sometimes lose) all to battle stellar horrors, escape from decadent tyrannies, and yes, rescue the girl.During the timeframe when these stories were written, Brackett First broke into writing screenplays for Hollywood."
+    },
+    {   id:5,
+        title: 'Why Crime Does Not Pay',
+        img: require('../assets/Images/5.jpg'),
+        author: 'Sophie Lyons',
+        genre: 'Crime',
+        description: " 'Why Crime Does Not Pay' by Mrs. Sophie Van Elkan Lyons Burke. Published by Good Press. Good Press publishes a wide range of titles that encompasses every genre. From well-known classics & literary fiction and non-fiction to forgotten−or yet undiscovered gems−of world literature, we issue the books that need to be read. Each Good Press edition has been meticulously edited and formatted to boost readability for all e-readers and devices. "
+    },
+    {   id:6,
+        title: 'The Woman in the Alcove',
+        img: require('../assets/Images/6.jpg'),
+        author: 'Anna Katherine Green',
+        genre: 'Crime',
+        description: '"The Woman in the Alcove" by Jennette Lee. Published by Good Press. Good Press publishes a wide range of titles that encompasses every genre. From well-known classics & literary fiction and non-fiction to forgotten−or yet undiscovered gems−of world literature, we issue the books that need to be read. Each Good Press edition has been meticulously edited and formatted to boost readability for all e-readers and devices. Our goal is to produce eBooks that are user-friendly and accessible to everyone in a high-quality digital format'
+    },
+    {   id:7,
+        title: 'The Sleet',
+        img: require('../assets/Images/7.jpg'),
+        author: 'Nannie Rebecca Glass',
+        genre: 'Fantasy',
+        description: "Regal the earth seems with diamonds today,Gemming all nature in blazing array;A picture more fairy-like never could beThan this wonderful icicle filigree."
+    },
+    {   id:8,
+        title: 'Olga Romanoff',
+        img: require('../assets/Images/8.jpg'),
+        author: 'George Griffith',
+        genre: 'Fantasy',
+        description: "Olga Romanoff (1894) is a science fiction novel by the English writer George Griffith, first published as The Syren of the Skies in Pearson's Weekly.The novel continues (from The Angel of the Revolution) the tale of a worldwide brotherhood of anarchists fighting the world armed with fantastical airships,ending on an apocalyptic note as a comet smashes into the earth."
+    },
+    {   id:9,
+        title: 'Twilight of the Idols',
+        img: require('../assets/Images/9.jpg'),
+        author: 'Friedrich Nietzsche',
+        genre: 'Literature',
+        description: "Nietzsche criticizes German culture of the day as unsophisticated, decadent and nihilistic, and shoots some disapproving arrows at key French, British, and Italian cultural figures who represent similar tendencies. In contrast to all these alleged representatives of cultural 'decadence', Nietzsche applauds Caesar, Napoleon, Goethe, Thucydides and the Sophists as healthier and stronger types. The book states the transvaluation of all values as Nietzsche's final and most important project, and gives a view of antiquity wherein the Romans for once take precedence over the ancient Greeks, albeit only in the field of literature"
+    },
+    {   id:10,
+        title: 'Clubs of the Wolf',
+        img: require('../assets/Images/10.jpg'),
+        author: 'Raymond Fisher Jones',
+        genre: 'Love',
+        description: "A century earlier, the Markovians were the meanest, nastiest, orneriest specimens in the entire Council of Galactic Associates. The worlds in their corner of their galaxy controlled a military force that outweighed anything the Council could possibly bring to bear against them."
+    },
+]
+
+export default data;
